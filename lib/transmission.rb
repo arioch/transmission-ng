@@ -2,7 +2,7 @@
 require 'mechanize'
 require 'json'
 
-$rpc_version = 15
+$rpc_version = 17
 $VERBOSE = nil
 
 module Kernel
