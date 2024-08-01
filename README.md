@@ -4,19 +4,18 @@ TransmissionNG ruby gem
 Version history
 ---------------
 
-1.0.0 - Initial release, compatible with RPC version 15 (latest as of 18/08/2015)
-1.0.1 - Minor bugfix (regex anchor)
-1.0.2 - Added a few default list attributes and fixed the name value
-1.0.3 - Added peersGettingFromUs and peersSendingToUs to default list keys
-1.0.4 - Fixed broken JSON back from RPC bug
-1.0.5 - Switched to Mechanize for http
-1.0.6 - Disable socksify when talking to Transmission
-1.0.7 - Bugfix
-1.0.8 - Bugfix
-1.0.9 - Removed nasty regex replace for broken libtransmission
-1.0.10 - Fixed typo
-1.0.11 - Bugfix for tcp connection exhaustion
-
+1.0.0 - Initial release, compatible with RPC version 15   (latest as of 18/08/2015)  
+1.0.1 - Minor bugfix (regex anchor)  
+1.0.2 - Added a few default list attributes and fixed the name value  
+1.0.3 - Added peersGettingFromUs and peersSendingToUs to default list keys  
+1.0.4 - Fixed broken JSON back from RPC bug  
+1.0.5 - Switched to Mechanize for http  
+1.0.6 - Disable socksify when talking to Transmission  
+1.0.7 - Bugfix  
+1.0.8 - Bugfix  
+1.0.9 - Removed nasty regex replace for broken libtransmission  
+1.0.10 - Fixed typo  
+1.0.11 - Bugfix for tcp connection exhaustion  
 
 Description
 -----------
@@ -28,7 +27,6 @@ Transmission RPC API, the spec for which is currently here:
 
 https://trac.transmissionbt.com/browser/branches/1.7x/doc/rpc-spec.txt
 
-
 Installation
 ------------
 
@@ -38,7 +36,6 @@ Note: ensure you are running the latest transmission.  On ubuntu you need to add
 Transmission apt repository:
 
     sudo add-apt-repository ppa:transmissionbt/ppa
-
 
 Usage
 -----
