@@ -22,7 +22,7 @@ Description
 
 This gem is designed to provide a clean and simple ruby interface to the Transmission RPC API.
 
-It is optimised for simplicity and ease of use and is compatible with version 15 of the
+It is optimised for simplicity and ease of use and is compatible with version 17 of the
 Transmission RPC API, the spec for which is currently here:
 
 https://trac.transmissionbt.com/browser/branches/1.7x/doc/rpc-spec.txt
